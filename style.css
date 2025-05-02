@@ -1,5 +1,10 @@
 body {
+    background-color: #1f1f1f;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
     margin: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
 header {
@@ -7,12 +12,6 @@ header {
     justify-content: space-between;
     margin-left: 5%;
     margin-top: 30px;
-}
-
-.body {
-    background-color: #5a5a5a;
-    font-family: Arial, sans-serif;
-    color: #ffffff;
 }
 
 .navigation-block {
@@ -33,7 +32,7 @@ header {
 
 .navigation-block {
     justify-content: space-between;
-    background-color: #5a5a5a;
+    background-color: #1f1f1f;
 }
 
 .menu-list {
@@ -204,4 +203,34 @@ header {
 .main-block-under a {
     text-decoration: none;
     color: #ffffff;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    padding: 2% 0;
+}
+
+.footer-block--h2 {
+    font-size: 30px;
+}
+
+.button-footer {
+    width: 150px;
+    height: 80px;
+}
+
+.footer-block--under a {
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 40px;
+    margin-left: 5%;
 }
