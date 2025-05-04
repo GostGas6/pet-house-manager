@@ -46,8 +46,8 @@
                     </div>
                     <button class="button-main">Order</button>
                 </div>
-                <div>
-                    <img src="./image/orig.jpg" alt="image off" width="800" height="870">
+                <div class="main-block-right">
+                    <img src="./image/orig.jpg" alt="image off" width="800" height="870" class="main-block--img">
                 </div>
             </div>
 
@@ -103,8 +103,10 @@
                     <form action="/submit" method="post" class="form-block--email">
                         <input class="form-block--email--input" type="text" name="name" placeholder="Name" required>
                         <input class="form-block--email--input" type="email" name="email" placeholder="Email" required>
-                        <input type="checkbox" name="subscribe" value="yes"> I accept
-                        Privacy policy
+                        <div>
+                            <input type="checkbox" name="subscribe" value="yes"> I accept
+                            Privacy policy
+                        </div>
                     </form>
                     <button class="button-main button-main--modified button-main--modified--form">SUBMIT FORM</button>
                 </div>
